@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UAC PRACTICE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles/estilos.css" />
+    <link rel="shortcut icon" href="Imagenes/Logo-Principal-1024x356.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="linea-amarilla"></div>
+    <nav class="navbar navbar-light bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Imagenes/Logo-Principal-1024x356.png" alt="" width="140" height="44"
+                    class="d-inline-block align-text-top" />
+            </a>
+            <button type="button" class="btn btn-warning">TE ASESORAMOS</button>
+        </div>
+    </nav>
+
+    <div class="container mt-3 col-3" id="form1">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header bg-light text-center text-dark">
+                        Solicita más información
+                    </div>
+                    <div class="card-body bg-dark">
+                        <form>
+                            <div class="mb-1">
+                                <label for="nombre" class="form-label"></label>
+                                <input type="text" class="form-control" placeholder="Nombre" id="nombre"
+                                    name="nombre" />
+                            </div>
+                            <div class="mb-1">
+                                <label for="apellidos" class="form-label"></label>
+                                <input type="text" class="form-control" placeholder="Apellidos" name="apellidos" />
+                            </div>
+                            <div class="mb-1">
+                                <label for="nacimiento" class="form-label"></label>
+                                <select class="form-select" id="nacimiento" name="nacimiento">
+                                    <option selected>Año de nacimiento</option>
+                                    <option value="2000">2000</option>
+                                    <option value="2001">2001</option>
+                                </select>
+                            </div>
+                            <div class="mb-1">
+                                <label for="email" class="form-label"></label>
+                                <input type="text" class="form-control" placeholder="Email" id="email" name="email" />
+                            </div>
+                            <div class="mb-1">
+                                <label for="programa" class="form-label"></label>
+                                <select class="form-select" id="programa" name="programa">
+                                    <option selected>Elige un programa</option>
+                                    <option value="programa1">Programa 1</option>
+                                    <option value="programa2">Programa 2</option>
+                                </select>
+                            </div>
+                            <div class="mb-1">
+                                <label for="pais" class="form-label"></label>
+                                <select class="form-select" id="pais" name="pais">
+                                    <option selected>Elige tu pais</option>
+                                    <option value="pais1">País 1</option>
+                                    <option value="pais2">País 2</option>
+                                </select>
+                            </div>
+                            <div class="mb-1 row">
+                                <div class="col">
+                                    <label for="prefijo" class="form-label"></label>
+                                    <input type="text" class="form-control" placeholder="Prefijo" name="prefijo" />
+                                </div>
+                                <div class="col">
+                                    <label for="telefono" class="form-label"></label>
+                                    <input type="text" class="form-control" placeholder="Teléfono" id="telefono"
+                                        name="telefono" />
+                                </div>
+                            </div>
+                            <div class="mb-1 form-check">
+                                <input type="checkbox" class="form-check-input" id="politica" name="politica" />
+                                <label class="form-check-label text-light" for="politica">He leído y acepto la política
+                                    de privacidad</label>
+                            </div>
+                            <div class="button2 text-center">
+                                <button type="submit" class="btn btn-warning">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenido1">
+        <p>
+            Los <br />posgrados <br />digitales con <br />
+            mayor <br />
+            especialización <br />
+            y empleo.
+        </p>
+    </div>
+
+    <div class="contenido2">
+        <p>
+            Ponemos a tu disposición la mayor oferta <br />
+            académica especializada en todos los verticales del <br />
+            ámbito digital, sumándoles como valor añadido un <br />
+            conjunto de experiencias únicas para fortalecer tu <br />
+            empleabilidad y aporte una fuerte orientación <br />hacia el negocio.
+        </p>
+    </div>
+
+    <div class="Sesion1">
+        <h1 class="titulo1 text-center">
+            <img src="Imagenes/puntos rojos.jpg" alt="puntos rojos" width="20px" height="20px" />¿En qué quieres
+            especializarte?<img src="Imagenes/puntos rojos.jpg" alt="puntos rojos" width="20px" height="20px" />
+        </h1>
+
+        <div class="sesion2">
+            <p>
+                Nuestra oferta acádemica de posgrados y especializaciones abarca todos
+                los ámbitos de negocio que requieren las nuevas profesiones y las
+                empresas del ámbito <br />
+                Digital. Nuestra oferta académica de posgrados y
+                especializacionesabarca todos los ámbitos de negocio que requieren las
+                nuevas profesiones y las empresas del <br />
+                ámbito Digital. Nuestra oferta académica de posgrados y
+                especializaciones abarca todos los ámbitos de negocio que requieren
+                las nuevas profesiones y las empresas <br />
+                del ambito Digital.
+            </p>
+        </div>
+    </div>
+
+    <div class="form2">
+        <div class="nivelEdu mb-1 col-2 text-center">
+            <label for="Nivel" class="form-label">Nivel Educativo</label>
+            <input type="text" id="filtroNivel" class="form-control filtro" placeholder="Buscar...">
+            <select class="form-select" id="nivelEducativo" name="Pregado">
+                <option value="Nivel" selected>Secundaria</option>
+                <option value="Nivel2">Bachiller</option>
+                <option value="Nivel2">Educación Tecnica</option>
+                <option value="pregrado">Pregado</option>
+                <option value="Nivel">Posgrado</option>                                
+            </select>
+        </div>
+    
+        <div class="nivelEdu mb-1 col-3 text-center">
+            <label for="Area" class="form-label">Área del conocimiento</label>
+            <input type="text" id="filtroArea" class="form-control filtro" placeholder="Buscar...">
+            <select class="form-select" id="areaConocimiento" name="Area">
+                <option selected>Ciencias Naturales</option>
+                <option value="Area1">Matematicas y Estadistica</option>
+                <option value="Area2">Ciencias Sociales</option>
+                <option value="Area3">Humanidades</option>
+                <option value="Area4">Ingeniería y Tecnología</option>
+                <option value="Area5">Ciencias de la Salud</option>
+                <option value="Area6">Ciencias de la Educación</option>
+            </select>
+        </div>
+    
+        <div class="nivelEdu mb-1 col-2 text-center">
+            <label for="Modalidad" class="form-label">Modalidad</label>
+            <input type="text" id="filtroModalidad" class="form-control filtro" placeholder="Buscar...">
+            <select class="form-select" id="modalidad" name="Modalidad">
+                <option value="Modalidad1" selected>Presencial</option>
+                <option value="Modalidad2">Virtual</option>                
+            </select>
+        </div>
+    </div>
+    
+    
+
+    <div class="cartas">
+        <div class="card-columns">
+            <div class="card text-dark bg-light mb-3" style="max-width: 18rem">
+                <div class="card-header bg-dark text-light">Online</div>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Master Internet Business <br />
+                        <p class="text-danger">(MBI)</p>
+                    </h5>
+                    <p class="card-text">
+                        Un máster integral y multidisciplinar <br /> como el MIB es la vía más fiable para <br />
+                        adquirir las habilidades, las <br /> herramientas y los conocimientos de <br /> negocio
+                        necesarios para afrontar con <br /> éxito la recolución digital.
+                    </p>
+                    <button type="button" class="btn btn-danger">
+                        MÁS INFORMACIÓN
+                    </button>
+                </div>
+            </div>
+
+            <div class="card text-dark bg-light mb-3" style="max-width: 18rem">
+                <div class="card-header bg-dark text-light">Online</div>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Master Internet Business <br />
+                        <p class="text-danger">(MBI)</p>
+                    </h5>
+                    <p class="card-text">
+                        Un máster integral y multidisciplinar <br /> como el MIB es la vía más fiable para <br />
+                        adquirir las habilidades, las <br /> herramientas y los conocimientos de <br /> negocio
+                        necesarios para afrontar con <br /> éxito la recolución digital.
+                    </p>
+                    <button type="button" class="btn btn-danger">
+                        MÁS INFORMACIÓN
+                    </button>
+                </div>
+            </div>
+
+            <div class="card text-dark bg-light mb-3" style="max-width: 18rem">
+                <div class="card-header bg-dark text-light">Online</div>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Master Internet Business <br />
+                        <p class="text-danger">(MBI)</p>
+                    </h5>
+                    <p class="card-text">
+                        Un máster integral y multidisciplinar <br /> como el MIB es la vía más fiable para <br />
+                        adquirir las habilidades, las <br /> herramientas y los conocimientos de <br /> negocio
+                        necesarios para afrontar con <br /> éxito la recolución digital.
+                    </p>
+                    <button type="button" class="btn btn-danger">
+                        MÁS INFORMACIÓN
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cartas2">
+        <div class="card-columns">
+            <div class="card text-dark bg-light mb-3" style="max-width: 18rem">
+                <div class="card-header bg-dark text-light">Online</div>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Master Internet Business <br />
+                        <p class="text-danger">(MBI)</p>
+                    </h5>
+                    <p class="card-text">
+                        Un máster integral y multidisciplinar <br /> como el MIB es la vía más fiable para <br />
+                        adquirir las habilidades, las <br /> herramientas y los conocimientos de <br /> negocio
+                        necesarios para afrontar con <br /> éxito la recolución digital.
+                    </p>
+                    <button type="button" class="btn btn-danger">
+                        MÁS INFORMACIÓN
+                    </button>
+                </div>
+            </div>
+
+            <div class="card text-dark bg-light mb-3" style="max-width: 18rem">
+                <div class="card-header bg-dark text-light">Online</div>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Master Internet Business <br />
+                        <p class="text-danger">(MBI)</p>
+                    </h5>
+                    <p class="card-text">
+                        Un máster integral y multidisciplinar <br /> como el MIB es la vía más fiable para <br />
+                        adquirir las habilidades, las <br /> herramientas y los conocimientos de <br /> negocio
+                        necesarios para afrontar con <br /> éxito la recolución digital.
+                    </p>
+                    <button type="button" class="btn btn-danger">
+                        MÁS INFORMACIÓN
+                    </button>
+                </div>
+            </div>
+
+            <div class="card text-dark bg-light mb-3" style="max-width: 18rem">
+                <div class="card-header bg-dark text-light">Online</div>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Master Internet Business <br />
+                        <p class="text-danger">(MBI)</p>
+                    </h5>
+                    <p class="card-text">
+                        Un máster integral y multidisciplinar <br /> como el MIB es la vía más fiable para <br />
+                        adquirir las habilidades, las <br /> herramientas y los conocimientos de <br /> negocio
+                        necesarios para afrontar con <br /> éxito la recolución digital.
+                    </p>
+                    <button type="button" class="btn btn-danger">
+                        MÁS INFORMACIÓN
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="seccion3">
+        <div class="container benefits-container">
+            <div class="header">
+                <h1>¿Qué ventajas diferenciales te aportamos?</h1>
+            </div>
+            <div class="benefits">
+                <div class="benefits-section">
+                    <h2>Eventos Digitales</h2>
+                    <p>Acceso a Seminarios, charlas y mesas redondas con las empresas más punteras del sector.</p>
+                    <ul class="logos">
+                        <li><img src="./Imagenes/nintendo-logo.png" alt="Nintendo"></li>
+                        <li><img src="./Imagenes/logo-amazon.png" alt="Amazon"></li>
+                        <li><img src="./Imagenes/play-logo.png" alt="PlayStation"></li>
+                        <li><img src="./Imagenes/google-logo.jpg" alt="Google"></li>
+                    </ul>
+                </div>
+                <div class="benefits-section">
+                    <h2>Alumni</h2>
+                    <p>Únete a la comunidad de profesionales con más auge del momento. Más de 5.000 alumnos al año, de
+                        60 nacionalidades diferentes, lideran empresas internacionales.</p>
+                    <ul class="logos">
+                        <li><img src="./Imagenes/ibm-logo.jpeg" alt="IBM"></li>
+                        <li><img src="./Imagenes/oracle-logo.jpeg" alt="Oracle"></li>
+                        <li><img src="./Imagenes/telefonica-logo.jpeg" alt="Telefonica"></li>
+                        <li><img src="./Imagenes/santander-logo.jpeg" alt="Santander"></li>
+                    </ul>
+                </div>
+                <div class="benefits-section custom-benefits4">
+                    <h2>Acceso a certificaciones</h2>
+                    <p>Con tu master podrás certificarte en las plataformas lideres en el sector digital y así ampliar
+                        tus habilidades.</p>
+                    <ul class="logos">
+                        <li><img src="./Imagenes/google-logo.png" alt="Google"></li>
+                        <li><img src="./Imagenes/facebook-logo.png" alt="Facebook"></li>
+                        <li><img src="./Imagenes/mailchimp-logo.png" alt="Mailchimp"></li>
+                        <li><img src="./Imagenes/hootsuite-logo.png" alt="Hootsuit"></li>
+                    </ul>
+                </div>
+                <div class="benefits-section custom-benefits3">
+                    <h2>Business Day</h2>
+                    <p>Jornadas en empresas del sector donde podrás conocer de primera mano cómo gestionan su éxito
+                        compañías nacionales e internacionales.</p>
+                    <ul class="logos">
+                        <li><img src="./Imagenes/lg-logo.png" alt="LG"></li>
+                        <li><img src="./Imagenes/ibm-logo.jpeg" alt="IBM"></li>
+                        <li><img src="./Imagenes/orange-logo.png" alt="Orange"></li>
+                        <li><img src="./Imagenes/hmg.jpg" alt="HMG"></li>
+                    </ul>
+                </div>
+                <div class="benefits-section custom-benefits2">
+                    <h2>Bolsa de Empleo</h2>
+                    <p>Tendrás a tu alcance más de 1.200 convenios gracias a nuestra bolsa de empleo. Aprende y
+                        desarróllate en las mejores empresas del sector digital</p>
+                    <ul class="logos">
+                        <li><img src="./Imagenes/sony-logo.png" alt="Sony"></li>
+                        <li><img src="./Imagenes/disney-logo.png" alt="Disney"></li>
+                        <li><img src="./Imagenes/accenture-logo.png" alt="Accenture"></li>
+                        <li><img src="./Imagenes/BBVA-emblema.jpg" alt="BBVA"></li>
+                    </ul>
+                </div>
+                <div class="benefits-section custom-benefits">
+                    <h2>Experiencias Internacionales</h2>
+                    <p>Posibilidad de viajar durante 2 días y compartir con compañeros, conocer otra cultura y ver de
+                        cerca cómo funcionan y a qué deben su éxito empresas de primer nivel</p>
+                    <ul class="logos">
+                        <li><img src="./Imagenes/inditex-1024x576.jpeg" alt="Inditex"></li>
+                        <li><img src="./Imagenes/google-logo.png" alt="Google"></li>
+                        <li><img src="./Imagenes/logo-amazon.png" alt="Amazon"></li>
+                        <li><img src="./Imagenes/oracle-academy-logo.png" alt="Oracle Academy"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sesion4">
+        <div class="manos">
+            <img src="Imagenes/mano agarradas.png" alt="manos agarradas" />
+            <h2 id="tit1">CLAUSTRO PROFESIONAL</h2>
+            <p>
+                Nuestro equipo docente está formado <br /> por profesionales en activo,<br /> compaginando la actividad
+                acádemica <br /> con la laboral en el ámbito Digital
+            </p>
+        </div>
+
+        <div class="usuarios">
+            <img src="Imagenes/usuarios.png" alt="usuarios" />
+            <h2 id="tit2">NETWORKING DIGITAL</h2>
+            <p>
+                Construimos una red de trabajo<br />profesional, donde los alumnos<br /> comparten sus conocimientos
+                entre si y con las grandes empresas<br />colaboradoras.
+            </p>
+        </div>
+
+        <div class="hoja">
+            <img src="Imagenes/hoja.png" alt="hoja" />
+            <h2 id="tit3">EMPLEABILIDAD</h2>
+            <p>Bolsa de Empleo y Prácticas</p>
+        </div>
+
+        <div class="work">
+            <img src="Imagenes/work.png" alt="work" />
+            <h2 id="tit4">
+                HUB DE <br /> EMPRENDIMIENTO
+            </h2>
+            <p>
+                Más del 70% de los proyectos de los <br /> alumnos de EUDE Digital se acaban <br /> conviertiendo en
+                Start Ups reales o en <br />actividades de emprendimiento.
+            </p>
+        </div>
+
+    </div>
+
+
+    <button type="button" class="btn btn-warning" id="boton3">Solicitar más información</button>
+
+
+
+
+    <div class="sesion5">
+        <div class="titulo3 text-center">
+            <h1 class="titpri">Tu empleabilidad y formación, nuestro compromiso</h1>
+            <p>Más de 25 años de experiencia en educación de posgrado avalan nuestra calidad académica.</p>
+        </div>
+
+        <div class="contenedores">
+            <div>
+                <p class="cabeza1">100.000<br> alumnos</p>
+                <p class="par1">nos han confiado su formación,tando <br>en modalidad presencial como <br> online
+                </p>
+            </div>
+
+            <div>
+                <p class="cabeza2">40 <br>nacionalidades</p>
+                <p class="par2">diferentes en procedencia de <br> alumnos construyen nuestra red de <br> networking
+                </p>
+            </div>
+
+            <div>
+                <p class="cabeza3">1000 <br> empresas</p>
+                <p class="par3">participan activamente en nuestra <br>Bolsa de Empleo y Gestión de <br>Prácticas</p>
+            </div>
+
+            <div>
+                <p class="cabeza4">30 <br> eventos</p>
+                <p class="par4">y actividades anuales se celebran de <br> forma complementaria al ámbito <br> académico
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="sesion6 text-light">
+        <h1 id="c1">Transformamos contigo las experiencias en aprendizaje</h1>
+
+        <div>
+            <p id="p1">Más allá de la actividad académica, en EUDE Digital adquirimos el compromiso de impulsar tu
+                aprendizaje a través de un <br> conjunto de experiencias en grandes empresas del sector, viajes
+                internacionales, seminarios profesionales
+                y una red de <br> nerworking con miles de alumnis formados en el sector digital</p>
+        </div>
+
+    </div>
+
+    <div class="sesion7">
+        <h1>Instituciones que confian su formación en la Universidad Autónoma del Caribe</h1>
+
+        <div class="ses-7-1">
+            <img src="Imagenes/img-sesion7.jpg" alt="Imagen sesion7" width="480px" height="210px">
+            <p>La azotea del bloque G de nuestra alma mater alberga, quizá, uno de <br> los mayores tesores de
+                investigación de esta casa de estudios, como <br> lo es una base experimental fotovoltaica con la
+                capacidad de <br> producir energia
+                verde y frenar asi emisiones contaminantes al <br> medio ambiente.</p>
+        </div>
+
+        <div class="ses-7-2">
+            <img src="Imagenes/img-sesion7.jpg" alt="Imagen sesion7" width="480px" height="210px">
+            <p>La azotea del bloque G de nuestra alma mater alberga, quizá, uno de <br> los mayores tesores de
+                investigación de esta casa de estudios, como <br> lo es una base experimental fotovoltaica con la
+                capacidad de <br> producir energia
+                verde y frenar asi emisiones contaminantes al <br> medio ambiente.</p>
+        </div>
+    </div>
+    <button type="button" class="btn btn-warning" id="boton4">Solicitar más información</button>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Imagenes/img-carrusel1.jpg" class="d-block w-100" alt="imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="Imagenes/img-carrusel2.jpg" class="d-block w-100" alt="imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="Imagenes/img-carrusel3.jpg" class="d-block w-100" alt="imagen 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="parrafoFinal">
+        <p id="comillas">"</p>
+        <p>El punto más fuerte de nuestra <br> institución son los docentes, sin <br> duda; todos tienen muy buena <br>
+            experiencia profesional y son <br> personas muy cercanas, siempre te <br> explican todo de forma muy clara
+            <br>y están
+            disponibles para atender <br> tus dudas.</p>
+        <button type="button" class="btn btn-custom"><img src="Imagenes/logo-youtube.png" alt="" width="20px"
+                height="25px">VER VIDEO</button>
+    </div>
+
+    <footer class="custom-footer">
+        <h4 id="puntos">︙</h4>
+        <h2 id="titulo">Universidad Autónoma del Caribe, formando líderes para el mañana</h2>
+        <h4 id="puntos">︙</h4>
+        <div class="image-container">
+            <img src="./Imagenes/tuv-logo.png" class="img-logo" width="135" height="30">
+            <img src="./Imagenes/MadridExcelente - copia.png" class="img-logo" width="110" height="50">
+            <img src="./Imagenes/camara-madrid-logo.png" class="img-logo" width="135" height="30">
+            <img src="./Imagenes/EFMD-Logo-1.png" class="img-logo" width="90" height="30">
+            <img src="./Imagenes/bureau-logo.jpeg" class="img-logo" width="90" height="40">
+            <img src="./Imagenes/ANCED-LOGO-FINAL.png" class="img-logo" width="90" height="40">
+            <img src="./Imagenes/AEEN-LOGO-FINAL1.png" class="img-logo" width="90" height="25">
+            <img src="./Imagenes/Logo_Euphe-300x150.png" class="img-logo" width="90" height="35">
+        </div>
+    </footer>    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+        <script src="./scripts/functions.js"></script>
+
+</body>
+
+</html>
